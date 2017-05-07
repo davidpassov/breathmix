@@ -1,9 +1,11 @@
-var app = function(){
+var App = function() {
 
-this.button = getElementById("button");
-this.button.innerHTML = "bla bls";	
+	var button = document.getElementById("button");
+	button.innerHTML = "bla bls";	
+
+	var element = document.getElementById("bla");
+	element.innerHTML="dsfd";
 }
 
-var calc = function() {
-	return 14;
-}
+app = new App();
+
